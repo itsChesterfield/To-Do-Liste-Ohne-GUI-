@@ -1,0 +1,1 @@
+package Liste;public class List {private Knoten root = null;public void insert(Knoten k){}}
