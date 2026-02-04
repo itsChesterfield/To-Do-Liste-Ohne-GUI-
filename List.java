@@ -1,1 +1,1 @@
-package liste;import liste.knoten.Knoten;public class List {private Knoten root = null;public void insert(Knoten k){}}
+package liste;import liste.knoten.Knoten;public class List {private Knoten root = null;public void insert(Knoten k){}public static void main(String[] args){}}
