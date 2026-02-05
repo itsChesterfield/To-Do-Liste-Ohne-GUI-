@@ -1,1 +1,1 @@
-package liste;import liste.knoten.Knoten;public class List {private Knoten root = null;public void insert(Knoten k){}public void insert(Knoten k, int position){}public Knoten delete(Knoten a){    return a;}}
+package liste;import liste.knoten.Knoten;public class List {private Knoten top = null;public void insert(Knoten k){}public void insert(Knoten k, int position){}public Knoten delete(Knoten a){    return a;}public Knoten ausgabe(){    return top;}}
