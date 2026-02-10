@@ -60,14 +60,13 @@ public class ToDo implements Comparable<ToDo>{
 	public String toString(){
 		return "" + counter + ": " + this.value + " (prio:" + this.priority + ") | Erstellt am: " + this.date + " | Uhrzeit: " + this.time;
 	}
-	public int compareTo(Knoten knoten) {
-		if(this.priority < knoten.getPriority()){
+	public int compareTo(ToDo todo) {
+		if(this.priority < todo.getPriority()){
 			return -1;
 		}
-		if(this.priority > knoten.getPriority()){
+		if(this.priority > todo.getPriority()){
 			return 1;
 		}
 		return 0;
 	}
-
 }
