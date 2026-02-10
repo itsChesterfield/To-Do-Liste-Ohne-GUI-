@@ -14,6 +14,11 @@ public class Knoten{
     public Knoten(ToDo todo){ // Default Konstruktor, der jedes mal mit einem Scanner die Eingabe überprüft
         this.todo = todo;
     }
+    public Knoten(ToDo todo, Knoten left, Knoten right){
+        this.todo = todo;
+        this.left = left;
+        this.right = right;
+    }
 
     public void knotenAusgabe(){
         System.out.println(todo.toString());
