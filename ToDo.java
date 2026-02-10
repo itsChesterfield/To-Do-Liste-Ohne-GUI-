@@ -33,7 +33,7 @@ public class ToDo implements Comparable<ToDo>{
 		}
 		this.value = value;
 	}
-
+t
 
 	/*
 	@Setter Legt die Priorität der To-Do fest.
