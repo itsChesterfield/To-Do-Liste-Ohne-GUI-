@@ -15,7 +15,7 @@ public class Knoten{
         this.todo = todo;
     }
 
-    public ToDo knotenAusgabe(){
-        return null;
+    public void knotenAusgabe(){
+        System.out.println(todo.toString());
     }
 }
