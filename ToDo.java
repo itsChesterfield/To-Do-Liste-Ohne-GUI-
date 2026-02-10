@@ -5,7 +5,7 @@ import java.time.LocalTime;
 Um alles Seperat zu erhalten, habe ich eine extra ToDo Klasse erstellt, für das do one Prinzip!
  */
 
-public class ToDo {
+public class ToDo implements Comparable<ToDo>{
 	private String value;
 	private int priority;
 	private LocalDate date;
@@ -59,6 +59,15 @@ public class ToDo {
 	 */
 	public String toString(){
 		return "" + counter + ": " + this.value + " (prio:" + this.priority + ") | Erstellt am: " + this.date + " | Uhrzeit: " + this.time;
+	}
+	public int compareTo(Knoten knoten) {
+		if(this.priority < knoten.getPriority()){
+			return -1;
+		}
+		if(this.priority > knoten.getPriority()){
+			return 1;
+		}
+		return 0;
 	}
 
 }
