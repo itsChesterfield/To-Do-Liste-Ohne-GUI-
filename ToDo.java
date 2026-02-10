@@ -6,5 +6,9 @@ Um alles Seperat zu erhalten, habe ich eine extra ToDo Klasse erstellt, für das
  */
 
 public class ToDo {
-
+	private String value;
+	private int priority;
+	private LocalDate date;
+	private LocalTime time;
+	private int counter = 0;
 }
