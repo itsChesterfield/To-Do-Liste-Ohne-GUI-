@@ -33,7 +33,7 @@ public class ToDo implements Comparable<ToDo>{
 		}
 		this.value = value;
 	}
-
+Test
 	/*
 	@Setter Legt die Priorität der To-Do fest.
 	@Exception Überprüft ob der Wert zwischen 1-3 liegt.
