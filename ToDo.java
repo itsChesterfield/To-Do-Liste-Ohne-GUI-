@@ -57,7 +57,7 @@ public class ToDo implements Comparable<ToDo>{
 	@ToString Wie das Objekt auf dem Terminal geprintet wird.
 	 */
 	public String toString(){
-		return "" + counter + ": " + this.value + " (prio:" + this.priority + ") | Erstellt am: " + this.date + " | Uhrzeit: " + this.time;
+		return "" + counter + ": " + " (prio:" + this.priority + ") | Erstellt am: " + this.date + " | Uhrzeit: " + this.time;
 	}
 	public int compareTo(ToDo todo) {
 		if(this.priority < todo.getPriority()){
