@@ -11,11 +11,12 @@ public class Knoten extends ToDo{
     Knoten left;
      Knoten right;
 
-    public Knoten(ToDo todo){ // Default Konstruktor, der jedes mal mit einem Scanner die Eingabe überprüft
-        this.todo = todo;
+    public Knoten(String value, int priority){ // Default Konstruktor, der jedes mal mit einem Scanner die Eingabe überprüft
+        super(value, priority);
     }
     public Knoten(ToDo todo, Knoten left, Knoten right){
-        this.todo = todo;
+		super();
+		this.todo = todo;
         this.left = left;
         this.right = right;
     }
