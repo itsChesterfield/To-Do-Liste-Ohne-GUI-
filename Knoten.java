@@ -6,7 +6,7 @@ import java.time.LocalDate;
 import java.time.LocalTime; // Für das Datum und die Uhrzeit bei der erstellung der To-Do.
 
 
-public class Knoten{
+public class Knoten extends ToDo{
     ToDo todo;
     Knoten left;
      Knoten right;
